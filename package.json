@@ -3,8 +3,6 @@
     "name": "management",
     "version": "1.0.0",
     "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
         "admin": "cd admin && yarn start",
         "server": "nodemon server.js",
         "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn admin\""
